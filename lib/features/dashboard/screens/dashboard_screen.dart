@@ -3,8 +3,8 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import '../../command/widgets/command_bar.dart';
 import '../../../core/services/market_service.dart';
 import '../../../core/models/ticker.dart';
-import 'widgets/ticker_tile.dart';
-import 'widgets/news_tile.dart';
+import '../widgets/ticker_tile.dart';
+import '../widgets/news_tile.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});
