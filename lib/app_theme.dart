@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 class AppTheme {
   static final darkTheme = ThemeData.dark().copyWith(
     scaffoldBackgroundColor: const Color(0xFF09090B), // Deep Void
-    textTheme: GoogleFonts.jetbrainsMonoTextTheme(
+    textTheme: GoogleFonts.jetBrainsMonoTextTheme(
       ThemeData.dark().textTheme,
     ),
     colorScheme: const ColorScheme.dark(
